@@ -3,6 +3,8 @@ const userRouter = require ('./routes/user.route');
 
 const app = express ();
 
+app.use (express.json ());
+
 app.use ('/users', userRouter);
 
 module.exports = app;
