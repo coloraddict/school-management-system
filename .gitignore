@@ -37,6 +37,7 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
+/__notes
 __screenshots__/
 package-lock.json
 
