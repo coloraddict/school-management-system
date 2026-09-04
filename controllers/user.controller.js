@@ -46,3 +46,18 @@ exports.addUser = async (req, res) => {
     });
   }
 };
+
+exports.deleteUser = async (req, res) => {
+  try {
+    await User.findByIdAndDelete (req.params.id);
+    res.status (201).json ({
+      status: 'success',
+      data: null,
+    });
+  } catch (err) {
+    res.status (400).json ({
+      status: 'Failed',
+      message: err.message,
+    });
+  }
+};
