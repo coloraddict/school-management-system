@@ -16,9 +16,13 @@ const addressSchema = mongoose.Schema ({
 });
 
 const userSchema = new mongoose.Schema ({
-  name: {
+  first_name: {
     type: String,
-    required: [true, 'Name is required'],
+    required: [true, 'First name is required'],
+  },
+  last_name: {
+    type: String,
+    required: [true, 'Last name is required'],
   },
   username: {
     type: String,
@@ -35,9 +39,54 @@ const userSchema = new mongoose.Schema ({
     required: [true, 'Password is required'],
   },
   address: addressSchema,
-  phone: {
+  phone_number: {
     type: String,
     required: [true, 'Phone number is required'],
+  },
+  profile_picture: {
+    type: String,
+  },
+  role: {
+    type: String,
+    required: [true, 'Role is required'],
+  },
+  designation: {
+    type: [String],
+  },
+  permissions: {
+    type: String,
+  },
+  department: {
+    type: String,
+  },
+  status: {
+    type: String,
+    required: [true, 'Status is required'],
+  },
+  notes: {
+    type: String,
+  },
+  is_email_verified: {
+    type: Boolean,
+    default: false,
+  },
+  is_phone_verified: {
+    type: Boolean,
+    default: false,
+  },
+  created_at: {
+    type: Date,
+    default: Date.now (),
+    select: false,
+  },
+  updated_at: {
+    type: Date,
+  },
+  created_by: {
+    type: String,
+  },
+  updated_by: {
+    type: String,
   },
 });
 
