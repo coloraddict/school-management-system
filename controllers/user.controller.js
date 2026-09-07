@@ -52,6 +52,23 @@ exports.addUser = async (req, res) => {
   }
 };
 
+exports.updateUser = async (req, res) => {
+  try {
+    const user = await User.findByIdAndUpdate (req.params.id, req.body, {
+      new: true,
+    });
+    res.status (201).json ({
+      status: 'success',
+      data: user,
+    });
+  } catch (err) {
+    res.status (400).json ({
+      status: 'Failed',
+      message: err.message,
+    });
+  }
+};
+
 exports.deleteUser = async (req, res) => {
   try {
     await User.findByIdAndDelete (req.params.id);
