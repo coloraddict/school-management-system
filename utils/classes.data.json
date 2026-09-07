@@ -1,0 +1,97 @@
+[
+  {
+    "class_name": "10A",
+    "grade": 10,
+    "section": "A",
+    "academic_year": "2026-2027",
+    "stream": "Science",
+    "class_teacher": "64f1a2b3c4d5e6f7a8b9c001",
+    "subjects": ["64f1a2b3c4d5e6f7a8b9c101", "64f1a2b3c4d5e6f7a8b9c102"],
+    "students": ["64f1a2b3c4d5e6f7a8b9c201", "64f1a2b3c4d5e6f7a8b9c202"],
+    "room_number": "R-101",
+    "notes": "Science stream with focus on Physics and Chemistry.",
+    "schedule": {
+      "Monday": ["Math", "Physics", "Chemistry", "English"],
+      "Tuesday": ["Biology", "Math", "Computer Science", "Physics"],
+      "Wednesday": ["Chemistry", "Math", "English", "History"],
+      "Thursday": ["Physics", "Biology", "Math", "Geography"],
+      "Friday": ["Math", "Chemistry", "English", "Computer Science"]
+    }
+  },
+  {
+    "class_name": "10B",
+    "grade": 10,
+    "section": "B",
+    "academic_year": "2026-2027",
+    "stream": "Commerce",
+    "class_teacher": "64f1a2b3c4d5e6f7a8b9c002",
+    "subjects": ["64f1a2b3c4d5e6f7a8b9c103", "64f1a2b3c4d5e6f7a8b9c104"],
+    "students": ["64f1a2b3c4d5e6f7a8b9c203", "64f1a2b3c4d5e6f7a8b9c204"],
+    "room_number": "R-102",
+    "notes": "Commerce stream with Accountancy and Economics.",
+    "schedule": {
+      "Monday": ["Accountancy", "Economics", "English", "Math"],
+      "Tuesday": ["Business Studies", "Economics", "Accountancy", "English"],
+      "Wednesday": ["Math", "Economics", "Accountancy", "Computer Science"],
+      "Thursday": ["Economics", "Business Studies", "English", "Math"],
+      "Friday": ["Accountancy", "Economics", "English", "History"]
+    }
+  },
+  {
+    "class_name": "9A",
+    "grade": 9,
+    "section": "A",
+    "academic_year": "2026-2027",
+    "stream": "General",
+    "class_teacher": "64f1a2b3c4d5e6f7a8b9c003",
+    "subjects": ["64f1a2b3c4d5e6f7a8b9c105", "64f1a2b3c4d5e6f7a8b9c106"],
+    "students": ["64f1a2b3c4d5e6f7a8b9c205", "64f1a2b3c4d5e6f7a8b9c206"],
+    "room_number": "R-201",
+    "notes": "General curriculum with English and History.",
+    "schedule": {
+      "Monday": ["English", "History", "Math", "Science"],
+      "Tuesday": ["Geography", "English", "History", "Computer Science"],
+      "Wednesday": ["Math", "English", "History", "Science"],
+      "Thursday": ["English", "History", "Geography", "Math"],
+      "Friday": ["Science", "English", "History", "Computer Science"]
+    }
+  },
+  {
+    "class_name": "9B",
+    "grade": 9,
+    "section": "B",
+    "academic_year": "2026-2027",
+    "stream": "Arts",
+    "class_teacher": "64f1a2b3c4d5e6f7a8b9c004",
+    "subjects": ["64f1a2b3c4d5e6f7a8b9c107", "64f1a2b3c4d5e6f7a8b9c108"],
+    "students": ["64f1a2b3c4d5e6f7a8b9c207", "64f1a2b3c4d5e6f7a8b9c208"],
+    "room_number": "R-202",
+    "notes": "Arts stream with focus on Political Science and Geography.",
+    "schedule": {
+      "Monday": ["Political Science", "Geography", "English", "History"],
+      "Tuesday": ["Geography", "Political Science", "English", "Economics"],
+      "Wednesday": ["History", "Political Science", "Geography", "English"],
+      "Thursday": ["Political Science", "Geography", "English", "Computer Science"],
+      "Friday": ["Geography", "Political Science", "History", "English"]
+    }
+  },
+  {
+    "class_name": "11A",
+    "grade": 11,
+    "section": "A",
+    "academic_year": "2026-2027",
+    "stream": "Science",
+    "class_teacher": "64f1a2b3c4d5e6f7a8b9c005",
+    "subjects": ["64f1a2b3c4d5e6f7a8b9c109", "64f1a2b3c4d5e6f7a8b9c110"],
+    "students": ["64f1a2b3c4d5e6f7a8b9c209", "64f1a2b3c4d5e6f7a8b9c210"],
+    "room_number": "R-301",
+    "notes": "Advanced Science curriculum with Biology.",
+    "schedule": {
+      "Monday": ["Biology", "Physics", "Chemistry", "Math"],
+      "Tuesday": ["Math", "Biology", "Physics", "English"],
+      "Wednesday": ["Chemistry", "Biology", "Math", "Computer Science"],
+      "Thursday": ["Physics", "Biology", "Chemistry", "Math"],
+      "Friday": ["Biology", "Chemistry", "Math", "English"]
+    }
+  }
+]
