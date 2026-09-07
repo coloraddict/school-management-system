@@ -46,6 +46,23 @@ exports.addStudent = async (req, res) => {
   }
 };
 
+exports.updateStudent = async (req, res) => {
+  try {
+    const student = await Student.findByIdAndUpdate (req.params.id, req.body, {
+      new: true,
+    });
+    res.status (200).json ({
+      status: 'Success',
+      data: student,
+    });
+  } catch (err) {
+    res.status (400).json ({
+      status: 'Failed',
+      message: err.message,
+    });
+  }
+};
+
 exports.deleteStudent = async (req, res) => {
   try {
     await Student.findByIdAndDelete (req.params.id);
