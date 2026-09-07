@@ -47,6 +47,23 @@ exports.addNewSubject = async (req, res) => {
   }
 };
 
+exports.updateSubject = async (req, res) => {
+  try {
+    const subject = await Subject.findByIdAndUpdate (req.params.id, req.body, {
+      new: true,
+    });
+    res.status (200).json ({
+      status: 'Success',
+      data: subject,
+    });
+  } catch (err) {
+    res.status (400).json ({
+      status: 'Failed',
+      message: err.message,
+    });
+  }
+};
+
 exports.deleteSubject = async (req, res) => {
   try {
     await Subject.findByIdAndDelete (req.params.id);

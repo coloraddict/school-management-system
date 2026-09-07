@@ -10,5 +10,6 @@ router
 router
   .route ('/:id')
   .get (subjectController.getSubject)
+  .patch (subjectController.updateSubject)
   .delete (subjectController.deleteSubject);
 module.exports = router;
