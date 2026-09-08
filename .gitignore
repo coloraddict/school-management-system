@@ -40,6 +40,8 @@ testem.log
 /__notes
 __screenshots__/
 package-lock.json
+utils/*.json
+utils/uploadTestData.js
 
 # System files
 .DS_Store
